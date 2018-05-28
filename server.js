@@ -50,7 +50,7 @@ app.post('/listen', (req, res) => {
                                 res.send("Error reading mp3");
                             }
                             else {
-                                res.setHeader('Content-disposition', 'attachment; filename=' + "afile.mp3");
+                                res.setHeader('Content-disposition', 'attachment; filename=' + "sample.mp3");
                                 res.setHeader('Content-Type', 'mp3');
                                 res.send(data);
                             }
