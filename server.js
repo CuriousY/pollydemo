@@ -15,7 +15,7 @@ AWS.config.secretAccessKey = "IWqBBtpg9enIqJdpWh07vHUB7KZZicmCbzsM/Zvc";
 AWS.config.region = "us-east-1";
 
 
-// Create an Polly client
+// Create an Polly clients
 const Polly = new AWS.Polly({
   signatureVersion: 'v4',
   region: 'us-east-1'
