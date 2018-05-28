@@ -1,4 +1,12 @@
 {
+    "name": "pollydemo",
+    "version": "0.0.1",
+    "description": "application with polly and nodejs",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
     "dependencies": {
         "aws-sdk": ">= 2.0.9",
         "express": "^4.16.3",
