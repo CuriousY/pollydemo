@@ -10,8 +10,8 @@ fs = require('fs');
 var AWS = require('aws-sdk');
 var uuid = require('node-uuid');
 const Fs = require('fs')
-AWS.config.accessKeyId = "AKIAI6SSKQVTTSEXWIWA";
-AWS.config.secretAccessKey = "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";
+AWS.config.accessKeyId = "";
+AWS.config.secretAccessKey = "";
 AWS.config.region = "us-east-1";
 
 
